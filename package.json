@@ -1,22 +1,21 @@
 {
   "name": "dim",
-  "version": "0.3.5-5",
+  "version": "0.3.5-6",
   "description": "Develop in modularization of front-end",
   "main": "index.js",
   "preferGlobal": true,
   "bin": {
-    "dim": "bin/scrat"
+    "dim": "bin/dim"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "fis",
-    "uc"
+    "dim"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/fouber/scrat.git"
+    "url": "https://github.com/JerroldLee/dim.git"
   },
   "dependencies": {
     "fis": "1.7.14",
@@ -24,13 +23,13 @@
     "fis-optimizer-html-minifier": "0.0.9",
     "fis-parser-handlebars": "0.0.1",
     "fis-parser-marked": "0.0.5",
-    "scrat-command-init": "0.1.2",
-    "scrat-command-install": "0.1.5-2",
-    "scrat-command-server": "0.0.11",
-    "scrat-parser-stylus": "0.0.4",
-    "scrat-preprocessor-nightcss": "0.1.0",
+    "dim-command-init": "0.1.2",
+    "dim-command-install": "0.1.5-2",
+    "dim-command-server": "0.0.11",
+    "dim-parser-stylus": "0.0.4",
+    "dim-preprocessor-nightcss": "0.1.0",
     "xmldom": "0.1.19"
   },
-  "author": "fouber",
+  "author": "Jerrold",
   "license": "MIT"
 }
